@@ -1,0 +1,8 @@
+Several approaches can mitigate this issue:
+
+1. **Using `background-size: contain;`:** This option ensures the entire image is visible within the element, maintaining its aspect ratio.  It might leave some empty space around the image.
+2. **Adjusting element dimensions:**  If possible, increase the dimensions of the element to better accommodate the background image. 
+3. **Using a different background image:** Choose an image with an aspect ratio that better matches the element's dimensions. 
+4. **Using media queries:** Responsively adapt the background image behavior based on screen size or element dimensions. 
+
+The `solution.css` file provides an example using `background-size: contain;`.
