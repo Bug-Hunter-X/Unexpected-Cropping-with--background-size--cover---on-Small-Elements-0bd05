@@ -1,0 +1,1 @@
+The CSS rule `background-size: cover;` is applied to an element with a relatively small content area. This can lead to unexpected cropping or distortion of the background image. The image might not fully fill the element, leading to empty spaces or parts of the image being cut off.
